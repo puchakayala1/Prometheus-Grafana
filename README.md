@@ -20,6 +20,8 @@ Install Minikube
 
 Install Helm
 
+
+
 It all starts with Monitoring
 
 Monitoring your Kubernetes cluster is essential for ensuring the health and performance of your applications and infrastructure. Here are some reasons why monitoring your Kubernetes cluster is important:
@@ -32,9 +34,13 @@ Ensure high availability: Kubernetes is designed to provide high availability fo
 
 Security and compliance: Monitoring your Kubernetes cluster can help you identify potential security risks and ensure compliance with regulations and policies. By tracking access logs and other security-related metrics, you can quickly detect and respond to potential security threats.
 
+
+
 Using Prometheus for monitoring
 
 Prometheus is an open-source monitoring and alerting system that helps you collect and store metrics about your software systems and infrastructure, and analyze that data to gain insights into their health and performance. It provides a powerful query language, a flexible data model, and a range of integrations with other tools and systems. With Prometheus, you can easily monitor metrics such as CPU usage, memory usage, network traffic, and application-specific metrics, and use that data to troubleshoot issues, optimize performance, and create alerts to notify you when things go wrong.
+
+
 
 Why Prometheus over other monitoring tools ?
 
@@ -50,10 +56,15 @@ Scalability: Prometheus is designed to be highly scalable, allowing you to monit
 
 Integrations: Prometheus integrates with a wide range of other tools and systems, including Grafana for visualization, Alertmanager for alerting, and Kubernetes API server for metadata discovery.
 
+
+
+
 Prometheus Architecture
 
 ![image](https://user-images.githubusercontent.com/128146553/225894864-63be79e7-8379-41a3-b41a-4b44c5c147aa.png)
 https://camo.githubusercontent.com/2cb8b2d19c897fef44f30b6a0c8ba5d0c6ea7ffde700cdd84d3c053ad0406815/68747470733a2f2f70726f6d6574686575732e696f2f6173736574732f6172636869746563747572652e706e67
+
+
 
 What is Grafana ?
 
